@@ -1,0 +1,169 @@
+\documentclass[pdftex,english,oribibl]{llncs}
+
+%% Spracheinstellungen laden
+\usepackage[english]{babel}
+
+%% Schriftart in der Ausgabe/Eingabe
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage[latin1]{inputenc}
+
+%% Zitate
+\usepackage[numbers]{natbib}
+\bibliographystyle{abbrvnat}
+%\bibliographystyle{dinat}
+%\bibliographystyle{plainnat}
+%\bibliographystyle{splncs}
+%% Similar to option "sectionbib" but \refname instead of \bibname
+\makeatletter
+\renewcommand\bibsection{\section*{\refname\@mkboth{\MakeUppercase{\refname}}{\MakeUppercase{\refname}}}}
+\makeatother
+
+%% Index
+%\usepackage{makeidx}
+%\makeindex
+
+%% PDF Einstellungen
+% muss nach natbib geladen werden!
+\usepackage{nameref}
+\usepackage{varioref}
+\usepackage[pdfusetitle,pdftex,colorlinks]{hyperref}
+\hypersetup{pdfborder={0 0 0}}
+\hypersetup{bookmarksdepth=3}
+\hypersetup{bookmarksopen=true}
+\hypersetup{bookmarksopenlevel=1}
+\hypersetup{bookmarksnumbered=true}
+\usepackage{color}
+\hypersetup{colorlinks=false}
+\usepackage{titling}
+
+%\usepackage[section]{tocbibind}
+
+\makeatletter
+\gdef\@keywords{}
+\def\keywords#1{\gdef\@keywords{#1}}
+\gdef\@subtitle{}
+\def\subtitle#1{\gdef\@subtitle{#1}}
+
+%% modified from llncs
+\renewenvironment{abstract}{%
+  \list{}{\advance\topsep by0.35cm\relax\small%
+          \leftmargin=1cm%
+          \labelwidth=\z@%
+          \listparindent=\z@%
+          \itemindent\listparindent%
+          \rightmargin\leftmargin}%
+          \item[\hskip\labelsep\bfseries\abstractname]}{%
+  \if!\@keywords!\else{\item[~]\item[\hskip\labelsep\bfseries\keywordname]\@keywords}\fi%
+  \endlist}
+
+\AtBeginDocument{%
+  \if!\@subtitle!\else\hypersetup{pdfsubject={\@subtitle}}\fi
+  \if!\@keywords!\else\hypersetup{pdfkeywords={\@keywords}}\fi
+}
+\makeatother
+
+% llncs hyperref fix
+\makeatletter
+\providecommand*{\toclevel@author}{0}
+\providecommand*{\toclevel@title}{0}
+\makeatother
+
+%% Grafiken
+\usepackage[pdftex]{graphicx}
+\DeclareGraphicsExtensions{.pdf,.jpg,.png}
+\usepackage{subfigure}
+
+%% Mathe
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+%% Listings
+\usepackage{listings}
+\lstset{escapechar=\%, frame=tb, basicstyle=\footnotesize}
+
+%% Sonstiges
+\newcommand{\TODO}[1]{\par\textcolor{red}{#1}\marginpar{\textcolor{red}{TODO}}}
+\newcommand{\TODOX}[1]{\textcolor{red}{#1}\marginpar{\textcolor{red}{TODO}}}
+\pagestyle{plain}
+
+% Keine "Schusterjungen"
+\clubpenalty = 10000
+% Keine "Hurenkinder"
+\widowpenalty = 10000 \displaywidowpenalty = 10000
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% BEGIN DOCUMENT
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\pretitle{%
+  \begin{center}\LARGE
+  \noindent\includegraphics[height=2.5cm]{figures/logo-se}\hfill{}\includegraphics[height=2.5cm]{figures/logo-uni}\\\vspace{0.5cm}
+}
+\title{Automatic debugging using comparable approaches}
+% \subtitle{My (optional) Subtitle}
+\author{Phillip, Daniel, Birgit Pohl (574353), Tim Sikatzki (573713)}
+\institute{Humboldt University of Berlin\\Department of Computer Science\\12489 Berlin, Germany}
+\posttitle{\end{center}}
+
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+  Context, Problematic, Solution
+
+ libgdx, Java framework for platform independent game development
+ libgdx Github Issue tracker, where bugs have been reported
+ goal is to eliminate issues
+ 
+ automatic repair: pro: it costs less time
+ assertion writing time + x > assertion writing
+
+\end{abstract}
+
+\section{Introduction}
+related
+
+\section{Background}\label{sec:background}
+Kommt alles das rein, was man braucht, um das Projekt zu verstehen. 
+
+Our tool of choice is Astor a "publicly available automatic software repair tool"  for Java. Astor uses three different approaches, GenProg, Kali and MutRepair, which can be compared as well.[1]
+
+Fault Localisation
+Repair Validation
+Automatic Repair
+GenProg
+Kali
+MutRepair
+
+
+
+if statement nehmen und an richtige stelle einfügen, was er nicht macht
+warum? varianz werden ausgegeben
+tool löscht statements
+
+\section{Evaluation}\label{sec:evaluation}
+
+\section{Solution and Evaluation Description}\label{sec:solutionEvaluationDescription}
+
+\section{Discussion}\label{sec:discussion}
+
+\section{Related Work}\label{sec:relatedWork}
+
+\section{Conclusions}\label{sec:conclusions}
+
+  These are my conclusions. \cite[12]{fitzgerald:realigning_research_and_practice} 
+
+Dies ist ein ganz kurzer Beispieltext \cite{AspectJ2007}
+
+\section{References}\label{sec:references}
+\bibliography{Report-Astor}
+
+
+
+
+
+
+
+\end{document}
