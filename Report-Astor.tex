@@ -113,13 +113,9 @@
 \begin{abstract}
   Context, Problematic, Solution
 
- libgdx, Java framework for platform independent game development
- libgdx Github Issue tracker, where bugs have been reported
- goal is to eliminate issues
- 
- automatic repair: pro: it costs less time
- assertion writing time + x > assertion writing
+Astor is a automatic, multidisciplinary testing and repair library for Java. It contains three different modi, GenProg, Kali and MutRepair. With focussing on the GenProg modus we found out that Astor's modus it may have a problem with enums, static variables that do not change their state. We ran Astor in its original version and a bug fixed version on Dataset4J, a set of real-life bugs in Java, and we will compare both results.
 
+RESULTS - 
 \end{abstract}
 
 \section{Introduction}
@@ -128,7 +124,7 @@ related
 \section{Background}\label{sec:background}
 Kommt alles das rein, was man braucht, um das Projekt zu verstehen. 
 
-Our tool of choice is Astor a "publicly available automatic software repair tool"  for Java. Astor uses three different approaches, GenProg, Kali and MutRepair, which can be compared as well.[1]
+Our tool of choice is Astor a "publicly available automatic software repair tool"  for Java. Astor uses three different approaches, GenProg, Kali and MutRepair, which can be compared as well.
 
 Fault Localisation
 Repair Validation
@@ -141,7 +137,7 @@ MutRepair
 
 if statement nehmen und an richtige stelle einfügen, was er nicht macht
 warum? varianz werden ausgegeben
-tool löscht statements
+tool löscht statements \cite{salam}
 
 \section{Evaluation}\label{sec:evaluation}
 
@@ -153,7 +149,7 @@ tool löscht statements
 
 \section{Conclusions}\label{sec:conclusions}
 
-  These are my conclusions. \cite[12]{fitzgerald:realigning_research_and_practice} 
+  These are my conclusions 
 
 Dies ist ein ganz kurzer Beispieltext \cite{AspectJ2007}
 
