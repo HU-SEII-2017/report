@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.4.25)  3 JUL 2017 13:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.4.25)  3 JUL 2017 19:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -621,14 +621,14 @@ e
 ))
 \c@lstlisting=\count160
 
-<figures/logo-se.pdf, id=36, 398.48875pt x 405.515pt>
+<figures/logo-se.pdf, id=40, 398.48875pt x 405.515pt>
 File: figures/logo-se.pdf Graphic file (type pdf)
 
 <use figures/logo-se.pdf>
 Package pdftex.def Info: figures/logo-se.pdf used on input line 111.
 (pdftex.def)             Requested size: 69.89467pt x 71.13188pt.
 
-<figures/logo-uni.pdf, id=37, 131.49126pt x 132.495pt>
+<figures/logo-uni.pdf, id=41, 131.49126pt x 132.495pt>
 File: figures/logo-uni.pdf Graphic file (type pdf)
 
 <use figures/logo-uni.pdf>
@@ -644,7 +644,7 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 111.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (1.3367pt too wide) in paragraph at lines 129--135
+Overfull \hbox (1.3367pt too wide) in paragraph at lines 139--145
 []\T1/cmr/m/n/10 Fault Lo-cal-i-sa-tion Re-pair Val-i-da-tion Au-to-matic Re-pa
 ir Gen-Prog Kali MutRe-
  []
@@ -658,39 +658,40 @@ LaTeX Font Info:    Try loading font information for T1+cmtt on input line 11.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 ))
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 165.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 175.
  [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 165.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 175.
 
 (./Report-Astor.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 165.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 165.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 175.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 175.
 Package rerunfilecheck Info: File `Report-Astor.out' has not changed.
-(rerunfilecheck)             Checksum: EDDB4B9A7E03DC1991475B48D43293F1;422.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 165.
+(rerunfilecheck)             Checksum: 240F14636D43064B67FCD13B86C1E696;482.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 175.
  ) 
 Here is how much of TeX's memory you used:
- 9431 strings out of 493089
- 133271 string characters out of 6134842
- 229303 words of memory out of 5000000
- 12754 multiletter control sequences out of 15000+600000
- 15930 words of font info for 49 fonts, out of 8000000 for 9000
+ 9436 strings out of 493089
+ 133332 string characters out of 6134842
+ 229341 words of memory out of 5000000
+ 12757 multiletter control sequences out of 15000+600000
+ 16706 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,6n,32p,451b,350s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,6n,32p,328b,348s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<
 /usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb></u
-sr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr
-/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/l
-ocal/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/loc
-al/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local
-/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/t
-exlive/2015/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/local/tex
-live/2015/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on Report-Astor.pdf (2 pages, 193961 bytes).
+sr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr
+/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/l
+ocal/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/loc
+al/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local
+/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/t
+exlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb></usr/local/tex
+live/2015/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/local/texli
+ve/2015/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
+Output written on Report-Astor.pdf (2 pages, 198676 bytes).
 PDF statistics:
- 106 PDF objects out of 1000 (max. 8388607)
- 90 compressed objects within 1 object stream
- 14 named destinations out of 1000 (max. 500000)
- 75 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 114 PDF objects out of 1000 (max. 8388607)
+ 97 compressed objects within 1 object stream
+ 15 named destinations out of 1000 (max. 500000)
+ 83 words of extra memory for PDF output out of 10000 (max. 10000000)
 

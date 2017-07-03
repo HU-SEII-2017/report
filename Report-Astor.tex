@@ -113,13 +113,23 @@
 \begin{abstract}
   Context, Problematic, Solution
 
-Astor is a automatic, multidisciplinary testing and repair library for Java. It contains three different modi, GenProg, Kali and MutRepair. With focussing on the GenProg modus we found out that Astor's modus it may have a problem with enums, static variables that do not change their state. We ran Astor in its original version and a bug fixed version on Dataset4J, a set of real-life bugs in Java, and we will compare both results.
-
-RESULTS - 
+Astor is a automatic, multidisciplinary testing and repair library for Java. It contains three different modi, GenProg, Kali and MutRepair. Focussing on GenProg modus we found out that Astor's GenProg modus may not recognize enums, static variables that do not change their state.
+To analyze Astor's effectivity we ran a test with Defects4J in order to find out, how many bugs is Astor able to fix. We conducted a bugfix on Astor and ran a test with the fixed version on Data4J as well. The results show .....
+We also condcuted a test focussed on the test cases involving enums if they are repaired correctly.
 \end{abstract}
 
 \section{Introduction}
-related
+Definitions
+Mentiones of relates work that is important in the introduction
+Problem
+- enums, static variables that do not change their state.
+-  Dataset4J, a set of real-life peer-reviewed bugs for Java
+
+Automatic Repair of Real Bugs: An Experience Report on
+the Defects4J Dataset
+
+Research Quetions
+\subsection{RQ1}\label{rq1}
 
 \section{Background}\label{sec:background}
 Kommt alles das rein, was man braucht, um das Projekt zu verstehen. 
